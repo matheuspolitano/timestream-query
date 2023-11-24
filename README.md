@@ -7,8 +7,21 @@ The Timestream project is designed to handle Amazon Timestream, a time-series da
 - **Name:** Matheus Politano
 - **LinkedIn:** [Matheus Politano](https://www.linkedin.com/in/matheus-politano-08b762123/)
 
+
+## CLI Interface
+
+Command: generate-csv
+
+The generate-csv command is a part of a CLI tool designed to execute SQL queries on Amazon Timestream and export the results to a CSV file.
+
+```
+python main.py generate-csv --sql-file <path-to-sql-file> --csv-file <path-for-csv-output> --region <table-region> [OPTIONS]
+
+```
+
 ## Development Status
 The project is in the development phase. Regular updates will be made to this repository as the project progresses.
+
 
 ## Features (Planned/Current)
 - [ ] Interface for querying Amazon Timestream data.
