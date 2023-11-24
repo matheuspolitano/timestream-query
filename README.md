@@ -6,6 +6,24 @@ The Timestream project is designed to handle Amazon Timestream, a time-series da
 ## Developer
 - **Name:** Matheus Politano
 - **LinkedIn:** [Matheus Politano](https://www.linkedin.com/in/matheus-politano-08b762123/)
+ 
+
+
+## Configuring credentials
+
+There are two types of configuration data in application: credentials and non-credentials. Credentials include items such as aws-access-key-id, aws-secret-access-key, and aws-session-token on CLI. Non-credential configuration . For more information on how to configure non-credential configurations, see the [Configuration](https://boto3.amazonaws.com/v1/documentation/api/1.18.4/guide/configuration.html#guide-configuration) guide.
+
+The application will look in several locations when searching for credentials. The mechanism in which The application looks for credentials is to search through a list of possible locations and stop as soon as it finds credentials. The order in which Boto3 searches for credentials is:
+
+- Passing credentials as parameters in the CLI method
+- Passing credentials as parameters when creating a Session object
+- Environment variables
+- Shared credential file (~/.aws/credentials)
+- AWS config file (~/.aws/config)
+- Assume Role provider
+- Boto2 config file (/etc/boto.cfg and ~/.boto)
+- Instance metadata service on an Amazon EC2 instance that has an IAM role configured.
+
 
 
 ## CLI Interface
