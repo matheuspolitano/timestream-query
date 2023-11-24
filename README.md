@@ -21,7 +21,7 @@ As this project is in its early stages, contributions, ideas, and feedback are h
 ## License
 MIT License
 
-Copyright (c) [year] Matheus Politano
+Copyright (c) 2023 Matheus Politano
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
